@@ -1,0 +1,388 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Robota', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.cover-h1{
+  font-family:'Roboto', sans-serif;
+  margin-top: 10px;
+}
+body {
+  margin: 0;
+}
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  /*background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;*/
+  /*background-color: rgb(43, 38, 38);*/
+  /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+ 
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: rgb(216, 3, 3);
+}
+
+
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+} 
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.card-text {
+  color: white;
+}
+
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url(../images/Group\ 5@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  height: calc(100vh - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron2 {
+  background-image: url(../images/Group\ 31@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 350px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.profileImg {
+  /*height: calc(100vw * 0.25);*/
+  padding-top: 90px;
+}
+
+.btn-custom2 {
+    background-color: #0a7ef2 !important;
+    color: white;
+  }
+
+
+
+
+
+.btn-custom {
+  background-color: /*#c95c03 #069917*/ #FFA300 !important;
+  color: white;
+  border: none;
+}
+
+/* Cards */
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+.sectionHeadingCS {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 100px;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+
+.showsNear2 {
+background-image: url(../images/Group\ 2@2x.png);
+background-repeat: none;
+
+}
+
+.showsNear3 {
+  padding: 30px 30px 30px 30px;
+}
+
+.showsNear4 {
+  padding: 30px 30px 0px 30px;
+}
+
+.cardContainer {
+  text-align: left;
+}
+
+.card-title_new {
+  font-family:'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.cardFooter {
+  background-color: white !important;
+  margin-bottom: 20px;
+}
+
+.card-img-overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem; 
+}
+
+.cardoverlay {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+
+
+  z-index: 1;
+  width: 75%;
+  margin: auto;
+}
+
+
+/* Content */
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  /*padding: 50px;*/
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.emailContain {
+  background: url(../images/emailBG.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+/* Footer form */
+form {
+  display: flex;
+ width: 500px;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+  margin: 35px auto;
+  padding: 45px;
+  border: .5px solid #F2F2F2;
+
+  /*-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  color: white;
+}
+
+
+.fade {
+  opacity: 0;
+}
+
+.fade1 {
+  opacity: 0;
+}
+.fade2 {
+  opacity: 0;
+}
+.fade3 {
+  opacity: 0;
+}
+.footer1 {
+  background-color: #303031;
+  color: #e6e6e6;
+}
+.navFlex{
+  padding-top: 10px;
+  padding-bottom: 10px;
+     /* background-color: #0B1F36;
+      color: #e6e6e6; */
+      text-align: center;} 
+}
+.navFlex ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navFlex li {
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navFlex li a {
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 8px;
+  color: #e6e6e6;
+}
+
+ul.no-indentFlex {
+  padding-left: 10px;
+  /*font-size: 21px;*/
+  text-align:left;
+}
+
+
+.skillsShadow {
+  box-shadow: 6px 6px 2px 1px #FFA300;
+}
+
+/* Jumbotron  */
+.jumbotronCS {
+background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));
+  height: calc(100vh - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopyCS {
+  width: 70%;
+  min-width: 350px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.headerCS {
+  padding-top: 150px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*Case Study Styles*/
+
+p.caseStudy {
+  padding: 0;
+  margin:0;
+}
+
+
+
+
+
+
+
+    /* Don't add padding to all elements that have classes like "col-md-*" */
+/*[class^="col-md-"], 
+[class*=" col-md-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+/* Add back the Bootstrap padding, if inside .container */
+/*.container [class^="col-md-"], 
+.container [class*=" col-md-"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Don't add negative margin for all rows */
+/*.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Add back the Bootstrap margin, if inside .container */
+/*.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+Update: Add this as well to address the footer issue.
+
+.container-fluid {
+  padding-right:0px;
+  padding-left:0px;
+}
+
+footer p{
+  margin:0;
+}
+*/
